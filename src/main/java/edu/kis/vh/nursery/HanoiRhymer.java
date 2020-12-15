@@ -15,3 +15,4 @@ int totalRejected = 0;
 		super.countIn(in);
 	}
 }
+//przechodzenie pomiedzy otworzonymi plikami
