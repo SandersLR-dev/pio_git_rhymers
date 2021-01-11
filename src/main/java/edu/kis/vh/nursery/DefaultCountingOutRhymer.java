@@ -7,6 +7,10 @@ public class DefaultCountingOutRhymer {
 	public static final int JEDENASCIE = 11;
 	private int[] numbers = new int[TWELVE];
 
+	public int getTotal() {
+		return total;
+	}
+
 	public int total = MINUSJEDEN;
 
 	public void countIn(int in) {
