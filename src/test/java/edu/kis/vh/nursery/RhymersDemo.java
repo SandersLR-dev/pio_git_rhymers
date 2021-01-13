@@ -5,6 +5,7 @@ import edu.kis.vh.nursery.factory.RhymersFactory;
 
 class RhymersDemo {
 
+
 	public static void main(String[] args) {
 		RhymersFactory factory = new DefaultRhymersFactory();
 		
@@ -30,5 +31,5 @@ class RhymersDemo {
 				+ ((HanoiRhymer) rhymers[3]).reportRejected());
 		
 	}
-	
+
 }
