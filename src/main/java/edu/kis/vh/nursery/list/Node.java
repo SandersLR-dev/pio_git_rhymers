@@ -6,6 +6,10 @@ public class Node {
 	private Node prev;
 	private Node next;
 
+
+	
+
+
 	public Node(int i) {this.value = i;}
 
 	int getValue() {
@@ -27,4 +31,5 @@ public class Node {
 	void setNext(Node next) {
 		this.next = next;
 	}
+
 }

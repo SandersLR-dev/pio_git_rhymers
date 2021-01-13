@@ -20,6 +20,7 @@ public class RhymersJUnitTest {
 		Assert.assertEquals(testValue, result);
 	}
 
+
 	@Test
 	public void testCallCheck() {
 		DefaultCountingOutRhymer rhymer = new DefaultCountingOutRhymer();

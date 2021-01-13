@@ -11,6 +11,7 @@ public class DefaultRhymersFactory implements RhymersFactory {
 		return new DefaultCountingOutRhymer();
 	}
 
+
 	@Override
 	public DefaultCountingOutRhymer getFalseRhymer() {
 		return new DefaultCountingOutRhymer();
