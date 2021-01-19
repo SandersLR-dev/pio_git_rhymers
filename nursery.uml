@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.kis.vh.nursery</OriginalElement>
+  <nodes>
+    <node x="0.0" y="305.0">edu.kis.vh.nursery.list</node>
+    <node x="197.0" y="230.0">edu.kis.vh.nursery.RhymersDemo</node>
+    <node x="0.0" y="155.0">edu.kis.vh.nursery.RhymersJUnitTest</node>
+    <node x="20.0" y="0.0">edu.kis.vh.nursery.DefaultCountingOutRhymer</node>
+    <node x="0.0" y="80.0">edu.kis.vh.nursery.FIFORhymer</node>
+    <node x="148.0" y="80.0">edu.kis.vh.nursery.HanoiRhymer</node>
+    <node x="0.0" y="230.0">edu.kis.vh.nursery.factory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.kis.vh.nursery.HanoiRhymer" target="edu.kis.vh.nursery.DefaultCountingOutRhymer">
+      <point x="0.0" y="-15.0" />
+      <point x="216.0" y="55.0" />
+      <point x="200.0" y="55.0" />
+      <point x="60.0" y="15.0" />
+    </edge>
+    <edge source="edu.kis.vh.nursery.FIFORhymer" target="edu.kis.vh.nursery.DefaultCountingOutRhymer">
+      <point x="0.0" y="-15.0" />
+      <point x="64.0" y="55.0" />
+      <point x="80.0" y="55.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="166.5" y="167.5" />
+  <SelectedNodes>
+    <node>edu.kis.vh.nursery.list</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
